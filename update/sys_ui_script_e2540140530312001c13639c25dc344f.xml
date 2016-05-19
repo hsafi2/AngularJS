@@ -17,7 +17,7 @@
 		link: function(scope, element) {
 			Chart.defaults.global.legend.position = 'bottom';
 			Chart.defaults.global.legend.labels.boxWidth = 10;
-			var colors = {1:'tomato', 2:'orange', 3:'#ffca1f', 4:'#4bd762', 5:'#278ecf'};
+			var colors = {1:'tomato', 2:'orange', 3:'#fff123', 4:'#000000', 5:'#278ecf'};
 			var chart = new Chart(element[0], {type: 'doughnut', data: _getChartData()});
 			
 			scope.$watch('total', function(o, n) {
@@ -44,7 +44,7 @@
         <sys_created_on>2016-04-22 21:47:53</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>e2540140530312001c13639c25dc344f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>sn_k16_im.k16.doughnut_chart</sys_name>
         <sys_package display_value="K16 Incident Manager" source="sn_k16_im">ce99b4e3c3221200a8625ad551d3ae65</sys_package>
         <sys_policy/>
@@ -52,7 +52,7 @@
         <sys_scope display_value="K16 Incident Manager">ce99b4e3c3221200a8625ad551d3ae65</sys_scope>
         <sys_update_name>sys_ui_script_e2540140530312001c13639c25dc344f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-05-19 00:07:50</sys_updated_on>
+        <sys_updated_on>2016-05-19 00:44:25</sys_updated_on>
         <use_scoped_format>false</use_scoped_format>
     </sys_ui_script>
 </record_update>
